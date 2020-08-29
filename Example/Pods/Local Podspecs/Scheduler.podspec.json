@@ -1,0 +1,22 @@
+{
+  "name": "Scheduler",
+  "version": "0.1.0",
+  "summary": "A short description of Scheduler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/547188371@qq.com/Scheduler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "547188371@qq.com": "547188371@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/547188371@qq.com/Scheduler.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Scheduler/Classes/**/*"
+}

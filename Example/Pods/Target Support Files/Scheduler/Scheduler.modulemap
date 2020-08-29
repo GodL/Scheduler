@@ -1,0 +1,6 @@
+framework module Scheduler {
+  umbrella header "Scheduler-umbrella.h"
+
+  export *
+  module * { export * }
+}
