@@ -1,15 +1,19 @@
 PODS:
+  - Disposable (1.1.0)
   - Nimble (7.3.4)
   - Quick (1.2.0)
-  - Scheduler (0.1.0)
+  - Scheduler (1.0.0):
+    - Disposable
 
 DEPENDENCIES:
+  - Disposable (= 1.1.0)
   - Nimble (~> 7.0)
   - Quick (~> 1.2.0)
   - Scheduler (from `../`)
 
 SPEC REPOS:
   trunk:
+    - Disposable
     - Nimble
     - Quick
 
@@ -18,10 +22,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
+  Disposable: 2a6259e63f46d3fc3d697ba44b2b05cc42c4f690
   Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
-  Scheduler: ba2718f4bb84e6d31c38b203e94279fba7483d1b
+  Scheduler: 73029e789878054cd38c630d484be1d15eb32a8c
 
-PODFILE CHECKSUM: e00edfcff5e99a8d8d2391b95f8e1dc94b0eff41
+PODFILE CHECKSUM: f6f56565d745fadc58ba7d0a05c3e3cd2fde41f4
 
 COCOAPODS: 1.9.0

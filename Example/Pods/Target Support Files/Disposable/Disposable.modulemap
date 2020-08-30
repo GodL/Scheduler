@@ -1,0 +1,6 @@
+framework module Disposable {
+  umbrella header "Disposable-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,7 +1,11 @@
+platform :ios, '8.0'
+
 use_frameworks!
 target 'Scheduler_Tests' do
   pod 'Scheduler', :path => '../'
   
   pod 'Quick', '~> 1.2.0'
     pod 'Nimble', '~> 7.0'
+  
+  pod 'Disposable', '1.1.0'
 end
