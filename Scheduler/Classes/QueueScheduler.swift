@@ -8,13 +8,13 @@
 import Foundation
 import Disposable
 
-public protocol QueueSchedulerType: SchedulerType {
+public protocol QueueScheduleable: Scheduleable {
     var queue: DispatchQueue { get }
     
     func schedule(after: TimeInterval,period: TimeInterval,leeway: TimeInterval,action: @escaping () -> Void) -> Disposable
 }
 
-extension QueueSchedulerType {
+extension QueueScheduleable {
     public func schedule(action: @escaping () -> Disposable?) -> Disposable {
         let disposable = SerialDisposable()
         queue.async {
@@ -42,7 +42,7 @@ extension QueueSchedulerType {
     }
 }
 
-public class QueueScheduler: QueueSchedulerType {
+public class QueueScheduler: QueueScheduleable {
     
     public let queue: DispatchQueue
     

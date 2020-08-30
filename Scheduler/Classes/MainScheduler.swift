@@ -7,7 +7,7 @@
 
 import Foundation
 
-final public class MainScheduler: QueueSchedulerType {
+final public class MainScheduler: QueueScheduleable {
     public var queue: DispatchQueue = .main
     
     public static let instance = MainScheduler()

@@ -8,7 +8,7 @@
 import Foundation
 import Disposable
 
-final public class ImmediateScheduler: SchedulerType {
+final public class ImmediateScheduler: Scheduleable {
     public func schedule(action: @escaping () -> Disposable?) -> Disposable {
         let disposable = SerialDisposable()
         disposable.disposable = action()

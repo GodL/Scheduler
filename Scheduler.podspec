@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Scheduler'
-  s.version          = '1.0.1'
+  s.name             = 'Scheduleable'
+  s.version          = '1.0.2'
   s.summary          = 'Thread scheduler.'
   s.homepage         = 'https://github.com/GodL/Scheduler'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }

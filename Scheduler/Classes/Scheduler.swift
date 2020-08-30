@@ -10,7 +10,7 @@ import Dispatch
 import Disposable
 
 
-public protocol SchedulerType {
+public protocol Scheduleable {
     func schedule(action: @escaping () -> Disposable?) -> Disposable
    
     func schedule(_ after: TimeInterval,action: @escaping () -> Disposable?) -> Disposable

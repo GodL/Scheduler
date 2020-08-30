@@ -9,11 +9,11 @@ import Foundation
 import Disposable
 import Dispatch
 
-public protocol OperationQueueSchedulerType: SchedulerType {
+public protocol OperationQueueScheduleable: Scheduleable {
     var queue: OperationQueue { get }
 }
 
-extension OperationQueueSchedulerType {
+extension OperationQueueScheduleable {
     public func schedule(action: @escaping () -> Disposable?) -> Disposable {
         let disposable = SerialDisposable()
         
@@ -41,7 +41,7 @@ extension OperationQueueSchedulerType {
     }
 }
 
-public class OperationQueueScheduler: OperationQueueSchedulerType {
+public class OperationQueueScheduler: OperationQueueScheduleable {
     public let queue: OperationQueue
     
     public init(queue: OperationQueue) {
