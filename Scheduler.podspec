@@ -8,12 +8,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Scheduler'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Thread scheduler.'
-  s.homepage         = 'https://github.com/Scheduler'
+  s.homepage         = 'https://github.com/GodL/Scheduler'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '547188371@qq.com' => '547188371@qq.com' }
-  s.source           = { :git => 'https://github.com/Scheduler.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/GodL/Scheduler.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
