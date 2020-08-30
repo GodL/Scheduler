@@ -106,6 +106,7 @@
 		C902A1434BD90C87A92DC2D6790A9F6F /* Disposable.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BE06757C2460CF8BB2185B39B8939F /* Disposable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C903D04724FB79F9007166A2 /* MainScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903D04624FB79F9007166A2 /* MainScheduler.swift */; };
 		C903D04924FB8BE2007166A2 /* OperationQeueuScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C903D04824FB8BE1007166A2 /* OperationQeueuScheduler.swift */; };
+		C903D04B24FB9B7B007166A2 /* Scheduleable.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C903D04A24FB9B7B007166A2 /* Scheduleable.podspec */; };
 		C971A8D42C7C043DC4970A69B81546A7 /* DSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A595B0D544A0AF7141C6780F850B04F /* DSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA9A2D74A41B640925B521CEC8BBEACE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7F40F824064D6D75947EBF2E4359C08 /* Foundation.framework */; };
 		CCA41EC992E6CFEC5367FE79E843240D /* AllPass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCCB8C55AA2815FC6B6305D1EB87566 /* AllPass.swift */; settings = {COMPILER_FLAGS = "-DPRODUCT_NAME=Nimble/Nimble"; }; };
@@ -310,8 +311,8 @@
 		C813125AB05B124AA3AE4290E40C426F /* QueueScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueueScheduler.swift; path = Scheduler/Classes/QueueScheduler.swift; sourceTree = "<group>"; };
 		C903D04624FB79F9007166A2 /* MainScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MainScheduler.swift; path = Scheduler/Classes/MainScheduler.swift; sourceTree = "<group>"; };
 		C903D04824FB8BE1007166A2 /* OperationQeueuScheduler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OperationQeueuScheduler.swift; path = Scheduler/Classes/OperationQeueuScheduler.swift; sourceTree = "<group>"; };
+		C903D04A24FB9B7B007166A2 /* Scheduleable.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Scheduleable.podspec; sourceTree = "<group>"; };
 		C91C75A94D9901F8B5C5282DC463B5B8 /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
-		CDFCFE44D7864EB99FEB5F2DC4EA4A08 /* Scheduler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Scheduler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CE77650FBF447A24E8E163161317E180 /* HaveCount.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HaveCount.swift; path = Sources/Nimble/Matchers/HaveCount.swift; sourceTree = "<group>"; };
 		CEE355F529360403C4BB765E6E65A77F /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = Disposable/Disposable/Atomic.swift; sourceTree = "<group>"; };
 		CEF4CEB1E03469CE5AFBDF9BF0A974C7 /* Functional.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Functional.swift; path = Sources/Nimble/Utils/Functional.swift; sourceTree = "<group>"; };
@@ -688,7 +689,7 @@
 			children = (
 				DD1DF8F1AB8C3B95C607C32CBFDF46FD /* LICENSE */,
 				F5D392F3A4718F2864FA4534BC7F6824 /* README.md */,
-				CDFCFE44D7864EB99FEB5F2DC4EA4A08 /* Scheduler.podspec */,
+				C903D04A24FB9B7B007166A2 /* Scheduleable.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -907,6 +908,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C903D04B24FB9B7B007166A2 /* Scheduleable.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

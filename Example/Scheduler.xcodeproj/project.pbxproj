@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		C903D04D24FB9B8B007166A2 /* Scheduleable.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C903D04C24FB9B8B007166A2 /* Scheduleable.podspec */; };
 		FF1319E011DDCBC9138A23E5 /* Pods_Scheduler_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4EF8683F09CAC5A8D338406 /* Pods_Scheduler_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -17,10 +18,10 @@
 		607FACE51AFB9204008FA782 /* Scheduler_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Scheduler_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65AAE68FAB684469257771B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		A949EC69D8E4DBAF20D730A0 /* Scheduler.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Scheduler.podspec; path = ../Scheduler.podspec; sourceTree = "<group>"; };
+		65AAE68FAB684469257771B6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C903D04C24FB9B8B007166A2 /* Scheduleable.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Scheduleable.podspec; path = ../Scheduleable.podspec; sourceTree = "<group>"; };
 		E4EF8683F09CAC5A8D338406 /* Pods_Scheduler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scheduler_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA6124CECA0EFAE03F5A3101 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EA6124CECA0EFAE03F5A3101 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +83,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A949EC69D8E4DBAF20D730A0 /* Scheduler.podspec */,
+				C903D04C24FB9B8B007166A2 /* Scheduleable.podspec */,
 				EA6124CECA0EFAE03F5A3101 /* README.md */,
 				65AAE68FAB684469257771B6 /* LICENSE */,
 			);
@@ -95,7 +96,6 @@
 				0E0CB42477C9D46BF132A724 /* Pods-Scheduler_Tests.debug.xcconfig */,
 				42130EA9D7B0B1B180045421 /* Pods-Scheduler_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +131,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +143,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -165,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C903D04D24FB9B8B007166A2 /* Scheduleable.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
